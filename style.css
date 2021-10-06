@@ -1,0 +1,32 @@
+h1, #sketch{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+h1{
+    background-color: blanchedalmond;
+    color: blue;
+}
+body{
+    background-color: lightgreen;
+}
+#show_sketch{
+    float: right;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+#score{
+    margin-left: 10px;
+}
+#time{
+    margin-right: 10px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 2s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
